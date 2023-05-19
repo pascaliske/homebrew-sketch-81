@@ -1,0 +1,26 @@
+{
+  "name": "homebrew-sketch-81",
+  "description": "This Homebrew Tap provides a Cask for Sketch 81.1.",
+  "license": "MIT",
+  "author": {
+    "name": "Pascal Iske",
+    "email": "info@pascaliske.dev",
+    "url": "https://pascaliske.dev"
+  },
+  "repository": {
+    "url": "https://github.com/pascaliske/homebrew-sketch-81",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/pascaliske/homebrew-sketch-81/issues"
+  },
+  "private": true,
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "husky": "^8.0.1"
+  }
+}
